@@ -25,7 +25,7 @@ header nav h2{
     color: #4E47FF
 }
 
-header button, #banner button{
+header button, #banner button, .action button{
     background-color:#4E47FF;
     color: white;
     border: none;
@@ -47,4 +47,40 @@ header button, #banner button{
 #banner div h1{
     font-size: 40px;
     margin-bottom: 1rem;
+}
+
+body{
+    background-color: #d7f8ffcb;
+}
+/* Main */
+main{
+    width: 85%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Action */
+.action{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.action h2{
+    font-size: 25px;
+    margin: 0.3rem 0;
+}
+.action p{
+    font-size:15px;
+    color: #787880;
+}
+.action img{
+    width: 250px;
+    border-radius: 1rem;
+}
+
+.action button{
+    margin-top: 0.8rem;
 }
