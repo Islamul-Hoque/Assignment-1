@@ -10,6 +10,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /* height: 100vh; */
 }
 
 /* Navbar */
@@ -17,10 +18,11 @@ header nav{
     display: flex;
     justify-content: space-between;
     padding: 3rem;
+    /* background-color: #27799744; */
 }
 
-header nav h2{
-    font-size: 32px;
+header nav h1{
+    font-size: 40px;
     font-weight: bold;
     color: #4E47FF
 }
@@ -36,16 +38,13 @@ header button, #banner button, .action button{
 }
 
 /* Banner */
-#banner{
-
-}
 #banner div{
     text-align: center;
     padding: 4.5rem;
 }
 
-#banner div h1{
-    font-size: 40px;
+#banner div h2{
+    font-size: 35px;
     margin-bottom: 1rem;
 }
 
@@ -83,4 +82,37 @@ main{
 
 .action button{
     margin-top: 0.8rem;
+}
+
+/* Productive Users */
+.users-card{
+    background-color: #c3c3fd;
+    border-radius: 0.7rem;
+    padding: 1.5rem 4.5rem;
+    margin: 2rem 0;
+}
+
+.users-card h2{
+    font-size:25px;
+    text-align: center;
+}
+.users-number{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    gap: 1.5rem;
+}
+.user-box{
+    text-align: center;
+}
+.user-box h2{
+    color: #4E47FF;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+}
+
+.user-box p{
+    color: #404042;
+    font-size: 12px;
 }
