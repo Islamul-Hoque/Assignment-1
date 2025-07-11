@@ -6,7 +6,7 @@
 
 /* nav & banner image */
 #background-img{
-    background-image: url(/image/Hero-bg.png);
+    background-image: url(../image/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -130,15 +130,18 @@ main{
     font-size:25px;
     text-align: center;
 }
+
 .users-number{
     display: flex;
     justify-content: space-around;
     margin: 1rem 0;
     gap: 1.5rem;
 }
+
 .user-box{
     text-align: center;
 }
+
 .user-box h2{
     color: #4E47FF;
     font-size: 45px;
@@ -162,6 +165,7 @@ main{
     justify-content: center;
     gap: 1rem;
 }
+
 .feedback-card{
     background-color: #ffffff;
     border-radius: 0.7rem;
@@ -172,13 +176,14 @@ main{
 .star img{
     width: 15px;
 }
+
 .comment h3{
     font-size: 15px;
     margin: 0.3rem 0;
 }
+
 .comment p{
     font-size: 10px;
-
 }
 
 .name-date img{
@@ -268,6 +273,7 @@ footer{
     background-color: white;
     padding: 3rem;
 }
+
 .footer-container{
     text-align: center;
     margin: 0 4rem;
@@ -276,17 +282,20 @@ footer{
 .footer-container h2{
     font-size: 50px;
 }
+
 .footer-container p{
     font-size: 12px;
     color:  #8a8a8a;
     margin: 1rem 0 0.5rem;
 }
+
 .link-page{
     display: flex;
     justify-content: center;
     gap: 1.5rem;
     /* background-color: #00ff11; */
 }
+
 .link-page a{
     font-size: 12px;
     font-weight: 00;
