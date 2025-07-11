@@ -32,9 +32,42 @@ header button, #banner button, .action button, .optional-card button, .contact b
     color: white;
     border: none;
     font-size: 14px;
-    font-weight: 300;
-    padding: 0.5rem 1rem;
+    font-weight: 400;
+    padding: 0.5rem 1.2rem;
     border-radius: 0.5rem;
+
+    transition: transform 0.3s ease, 
+    box-shadow 0.3s ease;
+}
+
+header button:hover, #banner button:hover{
+    cursor: pointer;
+    background-color: #fefefe2f;
+    color: #4E47FF;
+
+    font-weight: bold;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.action button:hover, .contact button:hover{
+    cursor: pointer;
+    background: linear-gradient(to right, #1b9a9a2c, #2195f311);
+    color: #4E47FF;
+
+    font-weight: bold;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.optional-card button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #4E47FF;
+
+    font-weight: bold;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Banner */
@@ -49,7 +82,7 @@ header button, #banner button, .action button, .optional-card button, .contact b
 }
 
 body{
-    background-color: rgba(217, 219, 219, 0.473);
+    background: linear-gradient(to right, #1b9a9a2c, #2195f311);
 }
 /* Main */
 main{
@@ -86,7 +119,8 @@ main{
 
 /* Productive Users */
 .users-card{
-    background-color: #cfcff4;
+    /* background-color: #cfcff4; */
+    background: linear-gradient(to right, #003cff2d, #20e0e036);
     border-radius: 0.7rem;
     padding: 1.5rem 4.5rem;
     margin: 2rem 0;
