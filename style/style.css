@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+/* nav & banner image */
+#background-img{
+    background-image: url(/image/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Navbar */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+}
+
+header nav h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #4E47FF
+}
+
+header button, #banner button{
+    background-color:#4E47FF;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+/* Banner */
+#banner{
+
+}
+#banner div{
+    text-align: center;
+    padding: 4.5rem;
+}
+
+#banner div h1{
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
