@@ -27,7 +27,7 @@ header nav h1{
     color: #4E47FF
 }
 
-header button, #banner button, .action button, .optional-card button{
+header button, #banner button, .action button, .optional-card button, .contact button{
     background-color:#4E47FF;
     color: white;
     border: none;
@@ -185,4 +185,41 @@ main{
     height: 100%;
     border-radius: 0.8rem;
     margin-top: 0.8rem;
+}
+
+/* Contact */
+.contact{
+    /* background-color: rgba(16, 167, 8, 0.5); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    padding: 1rem 0;
+}
+
+.contact h2{
+    font-size: 45px;
+}
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    margin: 0.4rem 0;
+}
+
+.contact-item input, .contact-item textarea{
+    padding: 0.6rem 1rem;
+    border-radius: 0.6rem;
+    border: none;
+}
+
+.contact-item label{
+    font-size: 12px;
+}
+.contact-item input::placeholder, .contact-item textarea::placeholder{
+    font-size: 10px;
+}
+
+.contact button{
+    width: 100%;
 }
