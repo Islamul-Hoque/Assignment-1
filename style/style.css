@@ -27,12 +27,12 @@ header nav h1{
     color: #4E47FF
 }
 
-header button, #banner button, .action button{
+header button, #banner button, .action button, .optional-card button{
     background-color:#4E47FF;
     color: white;
     border: none;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 300;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
 }
@@ -76,7 +76,7 @@ main{
     color: #787880;
 }
 .action img{
-    width: 250px;
+    width: 100%;
     border-radius: 1rem;
 }
 
@@ -161,4 +161,28 @@ main{
 .name-date p{
     font-size: 8px;
     font-family: "Inter", sans-serif;
+}
+
+/* Optional */
+.optional-card{
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 0.8rem;
+    text-align: center;
+}
+
+.optional-card h2{
+    font-size: 25px;
+}
+
+.optional-card p{
+    font-size: 11px;
+    margin: 0.8rem;
+}
+
+.optional-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.8rem;
+    margin-top: 0.8rem;
 }
